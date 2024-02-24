@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="utf-8">
+	<link href="style2.css" rel="stylesheet">
+</head>
+<body>
+<header> <a href="">
+    <h4 class="logo"><img src="vectorpaint.svg">Smart Heating</h4>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li> <a href="contact.html">CONTACT</a></li>
+        <li> <a href="https://glitch.com/edit/#!/databaselibrarycs?path=server.js%3A1%3A0">CONTROL</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero" id="hero">
+    <h2 class="hero_header">SMART<span class="light"> HEATING</span></h2>
+    <p class="tagline">Welcome to the home of the future</p>
+	</section>
+	<body>
+		<h1 class="hidden">Login to Smart Heating Control Monitor</h1>
+
+    <main>
+      <form action="/putData">
+        <label for="firstname">First Name:</label>
+        <input id="firstname" type="text" maxlength="50" size="20"><br/><br/>
+        <label for="surname">Surname:</label>
+        <input id="surname" type="text" maxlength="50" size="20"><br/><br/>
+
+        <label for="email">Email:</label>
+        <input id="email" type="text" maxlength="50" size="20"><br/><br/>
+        
+        <label for="memno">Smart Heating No:</label>
+        <input id="memno" type="number" maxlength="50" size="20"><br/><br/>
+        <button type="submit" id="submit-data">Submit Data</button>
+      </form>
+      
+      <section class="rows">
+        <!-- TO DO: Render table rows in a table (with delete button) -->
+        <ol id="rows"></ol>
+          <!--li>Test 1<a href="/delete"> Delete</a></li-->
+      </section>
+      
+      <!-- using the href below means url can be passed straight through to server-side code -->
+      <!-- app.get("/clear", ... -->
+      <p><a href="/clear">Clear</a></p>
+      
+    </main>
+		
+	<h1>contact</h1>
+	<h2>for more information:</h2>
+		<label>phone number:  +78204893892</label>
+		<label>email address: smartheating@gmail.com</label>
+		<label>location: building no.35, sundays well, cork</label>
+
+</body>
+</html>
+
